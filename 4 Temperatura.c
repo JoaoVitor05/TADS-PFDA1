@@ -20,7 +20,7 @@
     Resultado = (TempC * 1.8) + 32;
     
     printf ("\n\n A temperatura informada corresponde a: %0.2f °F\n\n ", Resultado);
-        
-    system ("pause");  
+    printf ("\n\n\nTecle para sair.");    
+    getch();  
     return 0;
     }
